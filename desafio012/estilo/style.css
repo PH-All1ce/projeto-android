@@ -79,18 +79,21 @@ section.imagem > p {
     display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.301);
+    box-shadow: 1px 1px 2px black;
 }
 
 section#img01 {
     background-image: url(../imagens/background001.jpg);
     background-position: right center;
     background-attachment: fixed;
+    background-size: cover;
 }
 
 section#img02 {
     background-image: url(../imagens/background002.jpg);
-    background-position: center center;
+    background-position: right bottom;
     background-attachment: fixed;
+    background-size: cover;
 }
 
 section#img03 {
@@ -107,6 +110,7 @@ section.imagem-dif > p {
     background-color: rgba(0, 0, 0, 0.301);
     color: white;
     padding: 15px;
+    box-shadow: 1px 1px 2px black;
 }
 
 footer {
@@ -114,5 +118,5 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-    font-size: 1.5vw;
+    font-size: 1vw;
 }
